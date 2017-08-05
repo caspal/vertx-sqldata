@@ -1,0 +1,11 @@
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  def vertx_version = '[3.4.2,)'
+
+  // Vertx
+  compile group: 'io.vertx', name: 'vertx-core', version: vertx_version
+  compile group: 'io.vertx', name: 'vertx-mysql-postgresql-client', version: vertx_version
+}
